@@ -133,7 +133,7 @@ body{
   display: flex;
   flex-direction: row;
   margin-left: 19px;
-  line-height: 129.54px;
+  line-height: 118px;
   order: 1;
   position: relative;
 }
@@ -144,8 +144,7 @@ body{
   height: 4px;
   background-color: #fff;
   order: 2;
-  position:absolute;
-  top: 581px;
+  
 }
 .arrowbody{
   position: relative;
@@ -162,24 +161,24 @@ body{
   transform: rotate(45deg);
   border-radius: 4px;
 }
-/* footer pc꺼 긁어오고 사이즈만 수정 */
+/* footer*/
 .footer>div:nth-child(1){
-  margin-left: 66px;
-  margin-top: 85px;
-  width: 890px;
+  margin-left: 43px;
+  margin-top: 82px;
+  width: 345px;
   height: 2px;
-  background-color: #fff;
+  background-color:  #D9D9D9;
 }
 
 .footer>div:nth-child(2){
-  margin-left: 66px;
+  margin-left: 43px;
   margin-top: 10px;
-  width: 500px;
+  width: 345px;
   height: 46px;
 }
 .footer>div:nth-child(2)>div{
   font-size: 8px;
-  color: #fff;
+  color: #F0F0F0;
   line-height: 9.68px;
   font-weight: 400;
 }
