@@ -5,13 +5,7 @@
   /* 귀찮은거 미리 제거 */
   font-family: "Inter";
 }
-.arrowdown:after{
-  content: ' ';
-  height: 0;
-  width: 0;
-  position: absolute;
-  border: 20px solid transparent;
-}
+
 .arrow {
   position: relative;
 }
