@@ -3,4 +3,27 @@
   margin: 0px;
   box-sizing: border-box;
   /* 귀찮은거 미리 제거 */
+  font-family: "Inter";
+}
+.arrowdown:after{
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  border: 20px solid transparent;
+}
+.arrow {
+  position: relative;
+}
+
+.arrow::after {
+  position: absolute;
+  left: 0; 
+  top: 0; 
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #2196F3;
+  border-right: 2px solid #2196F3;
+  transform: rotate(135deg);
 }
