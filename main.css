@@ -4,7 +4,9 @@
   /* 귀찮은거 미리 제거 */
   font-family: "Inter";
 }
-
+body{
+  border: 1px solid hwb(0 82% 18%);
+}
 .arrow {
   position: relative;
 }
@@ -19,4 +21,7 @@
   border-top: 2px solid #2196F3;
   border-right: 2px solid #2196F3;
   transform: rotate(135deg);
+}
+.fontcolor333{
+  color :#333333;
 }

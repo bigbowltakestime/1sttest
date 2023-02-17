@@ -1,0 +1,29 @@
+@media screen and (max-width:1400px) {  
+  .ver2arrowcontainer{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    transform: rotate(180deg) scale(0.6); 
+
+
+  }
+  .ver2stickset{
+    width: 70px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 7px;
+    position: absolute;
+  }
+  .ver2leftstick{
+    transform: rotate(135deg);
+    top: -20.8px;
+  }
+  .ver2rightstick{
+    transform: rotate(45deg);
+    top: 20.8px;
+  }
+}
+/* <div class = "ver2arrowcontainer"> */
+  /* <div class = "ver2stickset ver2leftstick"></div> */
+  /* <div class = "ver2stickset ver2rightstick"></div> */
+/* </div> */
