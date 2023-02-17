@@ -145,6 +145,8 @@ body{
   border-top: 7px solid rgb(255, 255, 255);
   border-right: 7px solid rgb(255, 255, 255);
   transform: rotate(45deg);
+  border-radius: 4px;
+
 }
 /* footer pc꺼 긁어오고 사이즈만 수정 */
 .footer>div:nth-child(1){
