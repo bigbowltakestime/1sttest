@@ -1,4 +1,4 @@
-@media screen and (min-width:1301px) {  
+@media screen and (min-width:1401px) {  
   body{
     width: 1728px;
     margin: auto;
@@ -151,7 +151,7 @@
   .footer>div:nth-child(2)>div{
     font-size: 8px;
     color: #F0F0F0;
-    line-height: 9.68px;
+    line-height: 12px;
     font-weight: 400;
   }
 }
